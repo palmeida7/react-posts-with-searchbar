@@ -1,6 +1,6 @@
-/* .App {
-  text-align: center;
-} */
+.App {
+    background: rgb(77, 0, 128);
+}
 
 /* .App-logo {
   height: 40vmin;
@@ -41,15 +41,17 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+
 }
 
 .card{
-  border: solid black;
+  border: none;
   margin: 10px;
   justify-content: center;
   text-align: center;
   background-color: lightblue;
   width: 500px;
+  display: ;
 }
 
 h4 {
@@ -57,6 +59,7 @@ h4 {
 }
 
 .search {
+  display: block;
   justify-content: center;
   text-align: center;
   margin-bottom: 25px;
@@ -66,6 +69,8 @@ h4 {
 label {
   font-weight: bold;
   margin: 5px;
+  font-size: 30px;
+  color: silver;
 }
 
 input {

@@ -34,8 +34,8 @@ function Body() {
                 <hr></hr>
                 { postResults.map(post => {
                 return (
-                    <div className="container">
-                        <div className="card">
+                    <div key={post.id}  className="container">
+                        <div className="card" id={'post_' + post.id}>
                             <h4 key={'1'}>User Id:{ post.userId }</h4>
                             <h4 key={'2'}>Post Id:{ post.id }</h4>
                             <h3 key={'3'}>Title: { post.title }</h3>
